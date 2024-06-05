@@ -1,0 +1,5 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: ReFil/zmk-build-priv-module-config/build-user-config-priv.yml@main
