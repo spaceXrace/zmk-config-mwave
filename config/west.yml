@@ -11,6 +11,7 @@ manifest:
       import: app/west.yml
     - name: MWave-zephyr-module
       url: git@github.com:PolarityWorks/MWave-zephyr-module.git
+      import: config/west.yml
       revision: main
   self:
     path: config
