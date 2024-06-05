@@ -3,3 +3,5 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: ReFil/zmk-build-priv-module-config/.github/workflows/build-user-config-priv.yml@main
+    secrets:
+        SSH_KEY: ${{ secrets.SSH_KEY }}
