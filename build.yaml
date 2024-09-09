@@ -1,2 +1,3 @@
 include:
   - board: mwave_33
+    snippet: studio-rpc-usb-uart

@@ -38,5 +38,23 @@
         &trans &trans &trans            &trans                &kp KP_N0    &trans  &kp KP_DOT &trans &trans &trans &trans
       >;
     };
+    extra1 {
+      status = "reserved";
+    };
+    extra2 {
+      status = "reserved";
+    };
+    extra3 {
+      status = "reserved";
+    };
+    extra4 {
+      status = "reserved";
+    };
+    extra5 {
+      status = "reserved";
+    };
+    extra6 {
+      status = "reserved";
+    };
   };
 };
