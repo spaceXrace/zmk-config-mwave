@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#include <behaviors/advertising_mode.dtsi>
+
 / {
   #include "mwave_prim.dtsi"
 
