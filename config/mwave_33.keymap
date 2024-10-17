@@ -7,6 +7,8 @@
 
 #include <behaviors/advertising_mode.dtsi>
 
+#include "studio-macros.dtsi"
+
 / {
   #include "mwave_prim.dtsi"
 
