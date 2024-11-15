@@ -1,3 +1,16 @@
 include:
   - board: mwave_33
     snippet: studio-rpc-usb-uart
+    artifact-name: ansi-windows
+  - board: mwave_33
+    snippet: studio-rpc-usb-uart
+    artifact-name: ansi-mac
+    cmake-args: -DKEYMAP_FILE=mwave_33_mac.keymap
+  - board: mwave_33
+    snippet: studio-rpc-usb-uart
+    artifact-name: iso-windows
+    cmake-args: -DKEYMAP_FILE=mwave_33_iso.keymap
+  - board: mwave_33
+    snippet: studio-rpc-usb-uart
+    artifact-name: iso-mac
+    cmake-args: -DKEYMAP_FILE=mwave_33_iso_mac.keymap
