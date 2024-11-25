@@ -24,16 +24,16 @@ endpoint_sideband_behaviors {
 
     first_toggle_sideband: first_toggle_sideband {
         column = <0>;
-        bindings = <&usb_conn>;
+        bindings = <&none>;
     };
 
     second_toggle_sideband: second_toggle_sideband {
         column = <1>;
-        bindings = <&ble_zero>;
+        bindings = <&none>;
     };
 
     third_toggle_sideband: third_toggle_sideband {
         column = <2>;
-        bindings = <&ble_one>;
+        bindings = <&none>;
     };
 };
