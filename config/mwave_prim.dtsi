@@ -7,12 +7,12 @@ macros {
     ZMK_MACRO(ble_zero,
         wait-ms = <1>;
         tap-ms = <1>;
-        bindings = <&out OUT_BLE &bt BT_SEL 0 &adv_mode ADV_ON>;
+        bindings = <&out OUT_BLE &bt BT_SEL 0>;
     )
     ZMK_MACRO(ble_one,
         wait-ms = <1>;
         tap-ms = <1>;
-        bindings = <&out OUT_BLE &bt BT_SEL 1 &adv_mode ADV_ON>;
+        bindings = <&out OUT_BLE &bt BT_SEL 1>;
     )
     #include "version.dtsi"
 };
@@ -24,16 +24,16 @@ endpoint_sideband_behaviors {
 
     first_toggle_sideband: first_toggle_sideband {
         column = <0>;
-        bindings = <&none>;
+        bindings = <&usb_conn>;
     };
 
     second_toggle_sideband: second_toggle_sideband {
         column = <1>;
-        bindings = <&none>;
+        bindings = <&ble_zero>;
     };
 
     third_toggle_sideband: third_toggle_sideband {
         column = <2>;
-        bindings = <&none>;
+        bindings = <&ble_one>;
     };
 };
