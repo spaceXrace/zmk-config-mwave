@@ -1,11 +1,12 @@
 #include <dt-bindings/advertising_mode.h>
 #include <behaviors/advertising_mode.dtsi>
-#include "studio-macros.dtsi"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include "studio-macros.dtsi"
+
 
 / {
     #include "mwave_prim.dtsi"
