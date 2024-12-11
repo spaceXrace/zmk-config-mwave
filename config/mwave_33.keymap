@@ -15,6 +15,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+          display-name = "Base";
             // -------------------------------------------------------------------------------------------------------
             // | ESC | F1  | F2  | F3  | F4  | F5  | F6  | | F7  | F8  | F9  | F10 | F11 | F12 |HOME| END |PSCN|  1  |
             // |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  | |   7   |  8  |  9  |  0  |  -  |  =  |    BKSP     | DEL |
@@ -35,6 +36,7 @@
         };
 
         raise {
+          display-name = "Fn";
             bindings = <
 &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_PP  &kp C_NEXT  &bl BL_TOG  &kp LG(D)  &kp LS(LG(S))  &kp LG(TAB)      &kp LG(S)  &bt BT_CLR  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp KP_NUMLOCK  &trans
 &none           &none       &none         &none         &none       &none     &none       &none       &none      &kp KP_DIVIDE  &kp KP_MULTIPLY  &none      &none       &trans
