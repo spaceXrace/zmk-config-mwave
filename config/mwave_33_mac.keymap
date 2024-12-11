@@ -47,21 +47,27 @@
             >;
         };
         extra1 {
+          display-name="Extra";
             status = "reserved";
           };
           extra2 {
+            display-name="Extra";
             status = "reserved";
           };
           extra3 {
+            display-name="Extra";
             status = "reserved";
           };
           extra4 {
+            display-name="Extra";
             status = "reserved";
           };
           extra5 {
+            display-name="Extra";
             status = "reserved";
           };
           extra6 {
+            display-name="Extra";
             status = "reserved";
           };
     };

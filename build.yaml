@@ -10,3 +10,6 @@ include:
     snippet: studio-rpc-usb-uart
     artifact-name: iso-windows
     cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_iso.keymap
+  - board: mwave_33
+    snippet: studio-rpc-usb-uart zmk-usb-logging
+    artifact-name: ansi-windows-logging
