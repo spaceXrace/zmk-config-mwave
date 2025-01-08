@@ -87,7 +87,7 @@
         Mac_Undo: Mac_Undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(V)>;
+            bindings = <&kp LG(Z)>;
             display-name = "Mac Undo";
         };
 
@@ -180,6 +180,13 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LS(X))>;
             display-name = "Mac Strikethrough Text";
+        };
+
+        Double_Click: Double_Click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &mkp MB1>;
+            display-name = "Double Click";
         };
     };
 };
