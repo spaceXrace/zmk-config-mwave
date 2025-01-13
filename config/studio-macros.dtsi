@@ -102,7 +102,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(UP_ARROW)>;
-            display-name = "Mac Show All Windoes";
+            display-name = "Mac Show All Windows";
         };
 
         Mac_Snip_Tool: Mac_Snip {
