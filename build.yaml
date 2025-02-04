@@ -13,3 +13,7 @@ include:
   - board: mwave_33
     snippet: studio-rpc-usb-uart zmk-usb-logging
     artifact-name: ansi-windows-logging
+  - board: mwave_33
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
+    artifact-name: ansi-settings-reset
