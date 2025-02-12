@@ -15,5 +15,8 @@ manifest:
       url: git@github.com:PolarityWorks/MWave-zephyr-module.git
       import: config/west.yml
       revision: main
+    - name: zmk-settings-reset-bootloader-module
+      remote: refil
+      revision: main
   self:
     path: config
