@@ -6,6 +6,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/advertising_mode.h>
 #include <behaviors/advertising_mode.dtsi>
+#include <behaviors/stp_indicators.dtsi>
 #include "studio-macros.dtsi"
 
 / {
