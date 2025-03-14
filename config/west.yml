@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: KinesisCorporation
+      url-base: https://github.com/kinesiscorporation
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -13,7 +15,7 @@ manifest:
       import: app/west.yml
     # Funky definition here is required for building from private repo
     - name: MWave-zephyr-module
-      url: git@github.com:KinesisCorporation/MWave-zephyr-module.git
+      remote: KinesisCorporation
       import: config/west.yml
       revision: main
     - name: zmk-settings-reset-bootloader-module
