@@ -13,7 +13,6 @@ manifest:
       remote: refil
       revision: disable-endpoint-fallback
       import: app/west.yml
-    # Funky definition here is required for building from private repo
     - name: MWave-zephyr-module
       remote: KinesisCorporation
       import: config/west.yml
