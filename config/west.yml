@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/refil
     - name: KinesisCorporation
       url-base: https://github.com/kinesiscorporation
+    - name: urob
+      url-base: https://github.com/urob
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -19,6 +21,9 @@ manifest:
       revision: main
     - name: zmk-settings-reset-bootloader-module
       remote: refil
+      revision: main
+    - name: zmk-helpers
+      remote: urob
       revision: main
   self:
     path: config
