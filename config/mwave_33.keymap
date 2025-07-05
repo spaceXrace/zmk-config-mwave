@@ -17,6 +17,11 @@
             bindings = <&Euro>;
             key-positions = <76 34>;
         };
+
+        ae {
+            bindings = <&ae>;
+            key-positions = <76 47>;
+        };
     };
 
     macros {
